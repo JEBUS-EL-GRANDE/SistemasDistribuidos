@@ -1,0 +1,12 @@
+SERVIDOR
+aceptar múltiples clientes
+ crear un hilo por cada cliente
+procesar 3 mensajes
+convertir a mayúsculas
+registrar IP, puerto, mensajes
+
+CLIENTE
+se conecta al servidor
+envía 3 mensajes
+ recibe 3 respuestas
+imprime todo

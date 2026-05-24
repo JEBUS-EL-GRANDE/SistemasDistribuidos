@@ -1,0 +1,45 @@
+Implemente
+una aplicación compuesta por dos programas Java (en Apache NetBeans) que se
+comuniquen mediante sockets TCP: (Transmission Control Protocol)
+
+
+ Servidor
+     (SocketServidor.java)
+
+• Escucha en el puerto 6100.
+
+• Acepta tres (3) conexiones consecutivas (en un bucle).
+
+• Por cada conexión:
+
+• Lee una línea enviada por el cliente (codificación UTF-8).
+
+• Registra en consola fecha/hora, IP:puerto del cliente y el mensaje recibido.
+
+• Responde con el formato: SOCKETS:[mensaje recibido].
+
+• Cierra ordenadamente flujos y socket tras cada conexión.
+
+
+ Cliente
+     (SocketCliente.java)
+
+• Se conecta al servidor por localhost o por la IP del servidor en la LAN.
+
+• Permite enviar múltiples líneas desde consola hasta ingresar SALIR.
+
+• Muestra en consola cada respuesta del servidor.
+
+• Utiliza UTF-8 para entrada y salida.
+
+
+
+ Pruebas
+     obligatorias
+
+• Local:  cliente y servidor en la misma PC (localhost).
+
+• LAN: cliente desde otra PC usando la IP del servidor (habilitar 6100/TCP en
+      firewall). 
+
+• Verificar caracteres acentuados: á, é, í, ó, ú, ñ, ü.
