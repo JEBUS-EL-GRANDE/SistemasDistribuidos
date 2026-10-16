@@ -60,7 +60,7 @@ java demo.sockets.SocketCliente
 ## 3. ProyectoFinal — Sistema de Archivos Distribuido (DFS) en Python
 
 ### Proyecto compilado python
-![imagen de uno de mis proyectos compilados ](readMeIMG/compilado.gif "proyecto python compilado")
+![imagen de uno de mis proyectos compilados ](readMeIMG/img1.png "proyecto python compilado")
 
 ### Descripción
 Implementación simplificada de un **Sistema de Archivos Distribuido** inspirado en **HDFS**. Consta de 3 componentes:
