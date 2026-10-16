@@ -5,9 +5,6 @@ Este repositorio contiene **3 proyectos** desarrollados durante la materia de Si
 ---
 
 ## 1. ClienteServidor — Servidor Multi-Cliente en Java
-
-**Lenguaje:** Java 1.8
-
 ### Descripción
 Aplicacion TCP cliente-servidor que permite que **multiples clientes** se conecten al servidor de forma **concurrente**. Cada cliente envia **3 mensajes** y el servidor responde convirtiendolos a **mayusculas**.
 
@@ -62,7 +59,8 @@ java demo.sockets.SocketCliente
 
 ## 3. ProyectoFinal — Sistema de Archivos Distribuido (DFS) en Python
 
-**Lenguaje:** Python 3.13 (solo librería estándar)
+### Proyecto compilado python
+![imagen de uno de mis proyectos compilados ](readMeIMG/compilado.gif "proyecto python compilado")
 
 ### Descripción
 Implementación simplificada de un **Sistema de Archivos Distribuido** inspirado en **HDFS**. Consta de 3 componentes:
